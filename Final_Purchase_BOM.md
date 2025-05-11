@@ -46,22 +46,51 @@
 
 ---
 
-### **Total Estimated Price (Available Components):**
+### **6. Heated Bed**
+| Item                           | Model                                           | Voltage  | Price (€)   | Features                                       | Notes                          |
+|--------------------------------|-------------------------------------------------|----------|-------------|-----------------------------------------------|--------------------------------|
+| **Silicone Heater Pad**        | Keenovo 400x400mm, 1200W, 220V                 | 220V     | **€120.98** | Fast heating, even distribution, integrated thermistor | Requires SSR for control       |
+| **Solid State Relay (SSR)**    | Fotek SSR-40DA                                 | 220V     | **€12.00**  | Controls AC-powered heated bed                | Needs heatsink for long-term use |
+| **Aluminum Build Plate**       | 400x400x6mm Aluminum Plate                     | N/A      | **€45.00**  | High thermal conductivity, flat, rigid        | Mount the silicone heater underneath |
+| **Borosilicate Glass Plate**   | 410x410x4mm                                    | N/A      | **€65.81**  | Heat-resistant, flat, durable, easy to clean  | Excellent adhesion, avoid using adhesives like hairspray |
+| **Heating Bed Insulation Mat** | Rubber Mat, 400x400mm                          | N/A      | **€15.95**  | Improves heat retention and efficiency        | Recommended for energy savings |
+
+---
+
+### **7. Cooling System**
+| Item                           | Model                                           | Voltage  | Price (€)   | Features                                       | Notes                          |
+|--------------------------------|-------------------------------------------------|----------|-------------|-----------------------------------------------|--------------------------------|
+| **Hotend Cooling Fan**         | Noctua NF-A4x10 FLX, 3-pin                     | 12V      | **€15.99**  | Quiet operation, long lifespan                | Requires step-down to 12V if PSU is 24V |
+| **Part Cooling Fan**           | 5015 Radial Blower Fan                         | 24V      | **€7.00**   | High airflow, ideal for part cooling          | Compatible with 24V systems   |
+
+---
+
+### **8. Sensors**
+| Item                           | Model                                           | Compatibility  | Price (€)   | Features                                       | Notes                          |
+|--------------------------------|-------------------------------------------------|----------------|-------------|-----------------------------------------------|--------------------------------|
+| **Bed Leveling Sensor**        | BLTouch Smart+                                  | Universal      | **€44.62**  | High precision, works on all surfaces         | Requires firmware configuration |
+| **Filament Runout Sensor**     | BIGTREETECH Smart Filament Sensor V2.0          | Universal      | **€18.49**  | Detects filament runout, clogs, tangles       | LED status display, bi-directional feeding |
+
+---
+
+### **Total Costs and Summary**
+- Frame: **€107.76**
+- PSU: **€83.30**
+- Hotend: **€74.37**
+- Extruder: **€109.80**
 - CoreXY Motion System: **€161.68**
-- Total Project Cost (Frame, PSU, Hotend, Extruder, CoreXY): **€597.91**
+- Heated Bed: **€259.74**
+- Cooling System: **€22.99**
+- Sensors: **€63.11**
+
+**Grand Total**: **€882.75**
 
 ---
 
 ### **Next Steps**
-1. **Evaluate Remaining Components**:
-   - **Control Board**: Duet, SKR, or similar.
-   - **Build Surface**: Heated bed, glass, or PEI sheet.
-   - **Cooling System**: Fans for part cooling and hotend.
+Would you like:
+1. Further customization (e.g., adding specific brackets or mounts for fans and sensors)?  
+2. Wiring and firmware configuration instructions for the sensors and cooling system?  
+3. Help sourcing these components or alternatives?
 
-2. **Finalize Purchase**:
-   - Order the out-of-stock items (e.g., pulleys) or find alternatives.
-
-3. **Assembly Preparation**:
-   - Check for additional screws, spacers, or mounts for assembly.
-
-Let me know if this looks good or if you’d like to add any additional components! 😊
+Let me know how you'd like to proceed! 😊

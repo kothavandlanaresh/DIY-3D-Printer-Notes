@@ -4,7 +4,50 @@ This file contains a comprehensive, detailed inventory of all hardware, tools, a
 
 ---
 
-# System Properties Documentation
+## 📋 Inventory Overview (Table of Contents)
+
+| Section | Subsection | Item | Description |
+|---------|------------|------|-------------|
+| 1. System Properties |  |  | Main workstation/server specs |
+| 2. 3D Printer Core Components | 2.1 | Bigtreetech Octopus Pro V5.0 | Main 3D printer controller board |
+|  | 2.2 | Hotend Print Head Kit | Print head for Bambu Lab A1 Mini |
+|  | 2.3 | 3D Printer Accessories Kit | Nozzles, PTFE, connectors, etc. |
+|  | 2.4 | GEEETECH PLA Filament | 1.75mm white filament |
+| 3. Electronics & Microcontroller Boards | 3.1 | UNO R3 Dev Board | Arduino-compatible board |
+|  | 3.2 | SP32 Expansion Board | ESP32 breakout board |
+|  | 3.3 | ESP32 WROOM 32 | Wi-Fi/Bluetooth MCU |
+| 4. Assembly, Tools & Maintenance | 4.1 | YIXISI M3 Kit | Brass/stainless screws, nuts, spacers |
+|  | 4.2 | Bamse Cordless Screwdriver | 21V, 2 batteries, accessories |
+|  | 4.3 | VLOXO Battery Spot Welder | Spot welder for battery packs |
+|  | 4.4 | OneAmg Soldering Iron Set | Soldering kit with tips, pump, etc. |
+|  | 4.5 | Crimping Pliers Set | For wire end ferrules |
+|  | 4.6 | Powtree Hot Glue Gun | Cordless, Makita compatible |
+|  | 4.7 | BIBURY Cutter Knives | 2 knives, snap-off blades |
+|  | 4.8 | Digital Caliper | 0-150mm, carbon fiber |
+| 5. Prototyping & Sensors | 5.1 | 2-Channel Relay Module | 5V relay board |
+|  | 5.2 | AZDelivery OLED Display | 0.96" I2C display |
+|  | 5.3 | Breadboard 830 Tie Dots | Solderless breadboard |
+|  | 5.4 | IR Infrared Module | Obstacle detection |
+|  | 5.5 | Light Intensity Sensor | HALJIA photoresistor module |
+|  | 5.6 | DHT11 Temp & Humidity | Sensor module |
+|  | 5.7 | PIR Motion Sensor | OcioDual HC-SR501 |
+|  | 5.8 | Micro USB Cable | Data/power cable |
+|  | 5.9 | Resistor Pack | 220Ω, 1kΩ, 10kΩ |
+|  | 5.10 | Passive Buzzer | Needs external signal |
+|  | 5.11 | Active Buzzer | Self-powered |
+|  | 5.12 | Dupont Wires F-F | Female to Female x10 |
+|  | 5.13 | Dupont Wires F-M | Female to Male x10 |
+|  | 5.14 | Tactile Push Button | 4-pin button |
+|  | 5.15 | Potentiometer | 10kΩ rotary |
+|  | 5.16 | RGB LED | 4-pin, multi-color |
+|  | 5.17 | Red, Yellow, Green LEDs | 15 LEDs total |
+|  | 5.18 | Dupont Wires M-M | Male to Male x10 |
+
+---
+
+# 1. 🖥️ System Properties Documentation
+
+### Main Workstation/Server
 
 **Motherboard:**
 - Model: ASRock Server Motherboard E3C236D4M-4L
@@ -60,7 +103,9 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 1. Bigtreetech Octopus Pro V5.0 Motherboard
+# 2. 🛠️ 3D Printer Core Components
+
+### 2.1 Bigtreetech Octopus Pro V5.0 Motherboard
 
 **Description:** A high-performance 3D printer controller board designed for advanced features and expandability.
 
@@ -80,46 +125,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 2. UNO R3 Development Board (ATMEGA328P-PU)
-
-**Description:** A versatile microcontroller development board compatible with Arduino IDE for prototyping and learning.
-
-**Features:**
-- **Microcontroller:** ATMEGA328P-PU with 32 KB of flash memory and 2 KB of SRAM.
-- **Connectivity:** USB interface for programming and serial communication.
-- **I/O Pins:** 14 digital I/O pins (6 with PWM) and 6 analog input pins.
-- **Compatibility:** Fully compatible with Arduino Uno R3.
-- **Power Supply:** Operates on 7-12V DC or USB power.
-
-**Applications:**
-- Suitable for controlling stepper motors, sensors, or other peripherals in CoreXY 3D printers.
-- Ideal for learning microcontroller programming and building custom electronics.
-
-**Package Includes:**
-- 1 x UNO R3 Development Board.
-
----
-
-## 3. SP32 Expansion Board (ESP32 Breakout Board)
-
-**Description:** A breakout board designed for ESP32 microcontrollers, offering easy access to all GPIO pins.
-
-**Features:**
-- **Compatibility:** Compatible with 44-pin ESP32 modules.
-- **GPIO Access:** Provides access to all GPIO pins for prototyping.
-- **Power Supply:** Operates on 3.3V or 5V DC.
-- **Compact Design:** Space-saving layout for breadboard compatibility.
-
-**Applications:**
-- Enables custom firmware development and prototyping for IoT devices.
-- Integrates with CoreXY 3D printers for advanced features like wireless control.
-
-**Package Includes:**
-- 1 x SP32 Expansion Board.
-
----
-
-## 4. Hotend Print Head Kit
+### 2.2 Hotend Print Head Kit
 
 **Description:** Hotend Print Head Kit for the Bambu Laboratory A1 Mini 3D printer.
 
@@ -154,36 +160,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 5. GEEETECH Polylactic Acid (PLA) Filament
-
-**Description:** High-quality PLA filament for 3D printing, made from renewable resources and designed for consistent performance.
-
-**Specifications:**
-- **Material:** Polylactic Acid (PLA), environmentally friendly and biodegradable.
-- **Filament Diameter:** 1.75 mm with a dimensional tolerance of ±0.02 mm.
-- **Printing Temperature:** 190–220°C.
-- **Spool Weight:** 1 kg.
-- **Color:** White.
-
-**Features:**
-- Smooth feeding and consistent extrusion for high-quality prints.
-- Minimal warping, making it beginner-friendly.
-- Compatible with most FDM 3D printers.
-
-**Applications:**
-- Ideal for prototyping, decorative models, and functional parts with low mechanical stress.
-
-**Usage Instructions:**
-1. Set the extruder temperature between 190–220°C based on your printer's performance.
-2. Use a heated bed temperature between 25–60°C for better adhesion (if your printer has a heated bed).
-3. Store the filament in a cool, dry place to prevent moisture absorption.
-
-**Package Includes:**
-- 1 x 1 kg Spool of GEEETECH PLA Filament.
-
----
-
-## 6. 3D Printer Accessories Kit
+### 2.3 3D Printer Accessories Kit
 
 **Description:** A comprehensive accessories kit for 3D printers, including essential components for maintenance and upgrades.
 
@@ -217,7 +194,111 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 7. YIXISI M3 Brass Male Female Hex Screws Nut Assortment Kit
+### 2.4 GEEETECH Polylactic Acid (PLA) Filament
+
+**Description:** High-quality PLA filament for 3D printing, made from renewable resources and designed for consistent performance.
+
+**Specifications:**
+- **Material:** Polylactic Acid (PLA), environmentally friendly and biodegradable.
+- **Filament Diameter:** 1.75 mm with a dimensional tolerance of ±0.02 mm.
+- **Printing Temperature:** 190–220°C.
+- **Spool Weight:** 1 kg.
+- **Color:** White.
+
+**Features:**
+- Smooth feeding and consistent extrusion for high-quality prints.
+- Minimal warping, making it beginner-friendly.
+- Compatible with most FDM 3D printers.
+
+**Applications:**
+- Ideal for prototyping, decorative models, and functional parts with low mechanical stress.
+
+**Usage Instructions:**
+1. Set the extruder temperature between 190–220°C based on your printer's performance.
+2. Use a heated bed temperature between 25–60°C for better adhesion (if your printer has a heated bed).
+3. Store the filament in a cool, dry place to prevent moisture absorption.
+
+**Package Includes:**
+- 1 x 1 kg Spool of GEEETECH PLA Filament.
+
+---
+
+# 3. 🔌 Electronics & Microcontroller Boards
+
+### 3.1 UNO R3 Development Board (ATMEGA328P-PU)
+
+**Description:** A versatile microcontroller development board compatible with Arduino IDE for prototyping and learning.
+
+**Features:**
+- **Microcontroller:** ATMEGA328P-PU with 32 KB of flash memory and 2 KB of SRAM.
+- **Connectivity:** USB interface for programming and serial communication.
+- **I/O Pins:** 14 digital I/O pins (6 with PWM) and 6 analog input pins.
+- **Compatibility:** Fully compatible with Arduino Uno R3.
+- **Power Supply:** Operates on 7-12V DC or USB power.
+
+**Applications:**
+- Suitable for controlling stepper motors, sensors, or other peripherals in CoreXY 3D printers.
+- Ideal for learning microcontroller programming and building custom electronics.
+
+**Package Includes:**
+- 1 x UNO R3 Development Board.
+
+---
+
+### 3.2 SP32 Expansion Board (ESP32 Breakout Board)
+
+**Description:** A breakout board designed for ESP32 microcontrollers, offering easy access to all GPIO pins.
+
+**Features:**
+- **Compatibility:** Compatible with 44-pin ESP32 modules.
+- **GPIO Access:** Provides access to all GPIO pins for prototyping.
+- **Power Supply:** Operates on 3.3V or 5V DC.
+- **Compact Design:** Space-saving layout for breadboard compatibility.
+
+**Applications:**
+- Enables custom firmware development and prototyping for IoT devices.
+- Integrates with CoreXY 3D printers for advanced features like wireless control.
+
+**Package Includes:**
+- 1 x SP32 Expansion Board.
+
+---
+
+### 3.3 ESP32 WROOM 32 Development Board
+
+**Description:** Universal Wi-Fi + Bluetooth + Bluetooth LE MCU Module.  
+**Technical Specifications:**
+- CPU: Dual-core processor, frequency adjustable from 80 MHz to 240 MHz.
+- Connectivity: Wi-Fi (802.11 b/g/n, up to 150 Mbps), Bluetooth v4.2 (BR/EDR and BLE).
+- Operating Voltage: 3.0V to 3.6V.
+- Sleep Current: < 5 µA.
+- Operating Temperature: -40°C to +85°C.
+- Built-in Quartz: 40 MHz.
+- Integrated SPI Flash: 4 MB.
+- Dimensions: 18 mm x 25.5 mm x 3.1 mm.
+- Average Operating Current: 80 mA.
+- Antenna Output Power: 20 dBm.
+
+**Features:**
+- Integrates conventional Bluetooth, low-power Bluetooth, and Wi-Fi.
+- Incorporates peripherals like capacitive touch sensors, SD card interface, Ethernet, high-speed SDIO/SPI, UART, I2S, and I2C.
+- FreeRTOS with LwIP operating system, with OTA encryption upgrade support.
+- Suitable for low-power sensor networks and demanding tasks (e.g., voice coding, audio streaming, MP3 decoding).
+- Compatible with Arduino IDE.
+
+**Applications:**
+- Battery-operated portable electronics.
+- Wireless communication with a long range.
+- IoT and embedded systems.
+
+**Package Includes:**  
+1 x ESP32 WROOM 32 Development Board.
+
+---
+
+# 4. 🔧 Assembly, Tools & Maintenance
+
+### 4.1 YIXISI M3 Brass Male Female Hex Screws Nut Assortment Kit
 
 **Description:** A versatile kit of M3 brass and stainless steel screws, nuts, and spacers, ideal for electronics and mechanical assemblies.
 
@@ -241,7 +322,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 8. Bamse Cordless Screwdriver (21 V)
+### 4.2 Bamse Cordless Screwdriver (21 V)
 
 **Description:** A powerful cordless screwdriver designed for drilling and screwing tasks during assembly projects.
 
@@ -268,7 +349,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 9. VLOXO Battery Spot Welder
+### 4.3 VLOXO Battery Spot Welder
 
 **Description:** A compact and versatile spot welder designed for assembling battery packs and working with thin metal sheets.
 
@@ -297,7 +378,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 10. OneAmg Soldering Iron Set
+### 4.4 OneAmg Soldering Iron Set
 
 **Description:** A complete soldering kit with adjustable temperature control, suitable for electronics assembly and maintenance.
 
@@ -331,7 +412,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 11. Crimping Pliers Wire End Ferrules Set
+### 4.5 Crimping Pliers Wire End Ferrules Set
 
 **Description:** Crimping tool kit designed for wire end ferrules.
 
@@ -358,7 +439,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 12. Powtree Cordless Hot Glue Gun
+### 4.6 Powtree Cordless Hot Glue Gun
 
 **Description:** A versatile cordless hot glue gun compatible with Makita 18V batteries, suitable for assembly, prototyping, and repairs.
 
@@ -383,7 +464,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 13. BIBURY Professional Cutter Knives (Pack of 2)
+### 4.7 BIBURY Professional Cutter Knives (Pack of 2)
 
 **Description:** A pair of versatile and durable cutter knives suitable for various tasks in assembly and DIY projects.
 
@@ -409,7 +490,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 14. 0-150mm Digital Caliper (Carbon Fiber)
+### 4.8 0-150mm Digital Caliper (Carbon Fiber)
 
 **Description:** A lightweight digital caliper for precise measurements in assembly and prototyping.
 
@@ -429,9 +510,9 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-# Hardware Items List (Electronics & Prototyping)
+# 5. 🧪 Prototyping & Sensors
 
-## 1. 2-Channel Relay Module
+### 5.1 2-Channel Relay Module
 
 **Description:** 5V 2-channel relay module.  
 **Technical Specifications:**
@@ -463,7 +544,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 2. AZDelivery OLED Display
+### 5.2 AZDelivery OLED Display
 
 **Description:** AZDelivery 0.96 Inch OLED I2C Display.  
 **Technical Specifications:**
@@ -490,39 +571,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 3. ESP32 WROOM 32 Development Board
-
-**Description:** Universal Wi-Fi + Bluetooth + Bluetooth LE MCU Module.  
-**Technical Specifications:**
-- CPU: Dual-core processor, frequency adjustable from 80 MHz to 240 MHz.
-- Connectivity: Wi-Fi (802.11 b/g/n, up to 150 Mbps), Bluetooth v4.2 (BR/EDR and BLE).
-- Operating Voltage: 3.0V to 3.6V.
-- Sleep Current: < 5 µA.
-- Operating Temperature: -40°C to +85°C.
-- Built-in Quartz: 40 MHz.
-- Integrated SPI Flash: 4 MB.
-- Dimensions: 18 mm x 25.5 mm x 3.1 mm.
-- Average Operating Current: 80 mA.
-- Antenna Output Power: 20 dBm.
-
-**Features:**
-- Integrates conventional Bluetooth, low-power Bluetooth, and Wi-Fi.
-- Incorporates peripherals like capacitive touch sensors, SD card interface, Ethernet, high-speed SDIO/SPI, UART, I2S, and I2C.
-- FreeRTOS with LwIP operating system, with OTA encryption upgrade support.
-- Suitable for low-power sensor networks and demanding tasks (e.g., voice coding, audio streaming, MP3 decoding).
-- Compatible with Arduino IDE.
-
-**Applications:**
-- Battery-operated portable electronics.
-- Wireless communication with a long range.
-- IoT and embedded systems.
-
-**Package Includes:**  
-1 x ESP32 WROOM 32 Development Board.
-
----
-
-## 4. Breadboard Solderless 830 Tie Dots PCB
+### 5.3 Breadboard Solderless 830 Tie Dots PCB
 
 **Description:** Solderless prototyping breadboard with 830 tie points.  
 **Technical Specifications:**
@@ -548,7 +597,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 5. AZDelivery IR Infrared Module for Obstacle Detection
+### 5.4 AZDelivery IR Infrared Module for Obstacle Detection
 
 **Description:** Infrared proximity sensor for obstacle detection and distance measurement.  
 **Technical Specifications:**
@@ -576,7 +625,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 6. HALJIA Digital Light Intensity Sensor Module
+### 5.5 HALJIA Digital Light Intensity Sensor Module
 
 **Description:** A light intensity sensor module using a photoresistor, designed for Arduino UNO and other microcontrollers.  
 **Technical Specifications:**
@@ -603,7 +652,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 7. DHT11 Temperature & Humidity Sensor Module
+### 5.6 DHT11 Temperature & Humidity Sensor Module
 
 **Description:** A digital sensor module used for measuring temperature and humidity, popular among students and makers.  
 **Technical Specifications:**
@@ -635,7 +684,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 8. OcioDual HC-SR501 PIR Motion Sensor
+### 5.7 OcioDual HC-SR501 PIR Motion Sensor
 
 **Description:** Infrared Passive Infrared (PIR) Motion Sensor Module for detecting motion.  
 **Technical Specifications:**
@@ -666,7 +715,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 9. Micro USB Cable
+### 5.8 Micro USB Cable
 
 **Description:** A standard Micro USB cable used for data transfer and charging.  
 **Features:**
@@ -681,7 +730,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 10. Resistor Pack (220Ω, 1kΩ, 10kΩ) x30
+### 5.9 Resistor Pack (220Ω, 1kΩ, 10kΩ) x30
 
 **Description:** A pack of resistors with three different resistance values for electronics and prototyping.  
 **Specifications:**
@@ -706,7 +755,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 11. Passive Buzzer x1
+### 5.10 Passive Buzzer x1
 
 **Description:** A passive buzzer module that requires an external signal source to generate sound.  
 **Features:**
@@ -721,7 +770,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 12. Active Buzzer x1
+### 5.11 Active Buzzer x1
 
 **Description:** An active buzzer module that generates sound when powered.  
 **Features:**
@@ -736,7 +785,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 13. Dupont Jumper Wires (Female to Female) x10
+### 5.12 Dupont Jumper Wires (Female to Female) x10
 
 **Description:** A set of female-to-female Dupont jumper wires for prototyping and connecting components.  
 **Quantity:** 10 wires.  
@@ -751,7 +800,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 14. Dupont Jumper Wires (Female to Male) x10
+### 5.13 Dupont Jumper Wires (Female to Male) x10
 
 **Description:** A set of female-to-male Dupont jumper wires commonly used for prototyping and connecting components.  
 **Quantity:** 10 wires.  
@@ -766,7 +815,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 15. Tactile Push Button (4 Pins)
+### 5.14 Tactile Push Button (4 Pins)
 
 **Description:** A compact, momentary tactile push button with 4 pins for use in electronic circuits.  
 **Features:**
@@ -781,7 +830,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 16. Potentiometer (10kΩ)
+### 5.15 Potentiometer (10kΩ)
 
 **Description:** A 10kΩ variable resistor (potentiometer) used to adjust resistance in a circuit.  
 **Specifications:**
@@ -802,7 +851,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 17. RGB LED x1
+### 5.16 RGB LED x1
 
 **Description:** A 4-pin RGB LED capable of emitting red, green, and blue light, combined to create a wide range of colors.  
 **Specifications:**
@@ -821,7 +870,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 18. Red, Yellow, Green LEDs x15
+### 5.17 Red, Yellow, Green LEDs x15
 
 **Description:** A pack of 15 single-color LEDs with 5 each of red, yellow, and green LEDs.  
 **Specifications:**
@@ -843,7 +892,7 @@ This system is optimized for professional workloads, gaming, and high-performanc
 
 ---
 
-## 19. Dupont Jumper Wires (Male to Male) x10
+### 5.18 Dupont Jumper Wires (Male to Male) x10
 
 **Description:** A set of male-to-male Dupont jumper wires for prototyping and connecting components.  
 **Quantity:** 10 wires.  
